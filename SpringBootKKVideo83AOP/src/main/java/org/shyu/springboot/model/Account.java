@@ -22,4 +22,8 @@ public class Account {
 	public void setAccountDescription(String accountDescription) {
 		this.accountDescription = accountDescription;
 	}
+	
+	public String toString() {
+		return "Acc #: " + getAccountNumber() + ", Description: " + getAccountDescription();
+	}
 }

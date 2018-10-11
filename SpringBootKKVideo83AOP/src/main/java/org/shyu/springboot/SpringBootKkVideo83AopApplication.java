@@ -23,8 +23,8 @@ public class SpringBootKkVideo83AopApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		Account account = new Account("123", "ShyuAccount");
-		//accountServiceImpl.updateAccountAmount(account, 3000);
-		accountServiceImpl.getAccountByCustomerId("c456");	
+		accountServiceImpl.updateAccountAmount(account, 3000);
+		//accountServiceImpl.getAccountByCustomerId("c456");	
 		
 		/*//Collection -> Array
 		List<Account> accountsA = new ArrayList<>();
