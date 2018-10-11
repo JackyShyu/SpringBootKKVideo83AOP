@@ -9,8 +9,8 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 public @interface Auditable {
 	public enum AuditDestination {
-		FILE_STSTEM, DATABASE
+		FILE_SYSTEM, DATABASE
 	};
 	
-	AuditDestination value() default AuditDestination.FILE_STSTEM;
+	AuditDestination value() default AuditDestination.FILE_SYSTEM;
 }

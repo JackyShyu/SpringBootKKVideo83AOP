@@ -5,6 +5,7 @@ public class Account {
 	private String accountDescription;
 	
 	public Account(String accountNumber, String accountDescription) {
+		super();
 		this.accountNumber = accountNumber;
 		this.accountDescription = accountDescription;
 	}
